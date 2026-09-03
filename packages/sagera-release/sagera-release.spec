@@ -1,6 +1,6 @@
 Name:           sagera-release
 Version:        0.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Sagera distribution release information
 
 License:        MIT
@@ -26,6 +26,9 @@ install -m 0644 %{SOURCE1} \
 %{_prefix}/lib/sagera-release
 
 %changelog
+* Wed Sep 02 2026 Philips <99601790+philip2012@users.noreply.github.com> - 0.2-2
+- Fix human-readable release version
+
 * Wed Sep 02 2026 Philips <99601790+philip2012@users.noreply.github.com> - 0.2-1
 - Add machine-readable Sagera release metadata
 
