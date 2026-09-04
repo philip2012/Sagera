@@ -6,8 +6,8 @@ Summary:        Default system settings for Sagera
 License:        MIT
 BuildArch:      noarch
 
-Source0:        files/90-sagera.conf
-Source1:        files/90-sagera-journald.conf
+Source0:        90-sagera.conf
+Source1:        90-sagera-journald.conf
 
 Requires:       systemd
 Requires:       sagera-release

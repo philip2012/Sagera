@@ -9,5 +9,5 @@ mkdir -p "$TOPDIR"/{BUILD,BUILDROOT,RPMS,SRPMS,SOURCES,SPECS}
 
 rpmbuild \
     --define "_topdir $TOPDIR" \
-    --define "_sourcedir $PKG" \
+    --define "_sourcedir $PKG/files" \
     -ba "$PKG/sagera-settings.spec"
